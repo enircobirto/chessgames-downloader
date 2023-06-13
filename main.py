@@ -16,7 +16,6 @@ def main():
         for game in gamelist:
             result.write(getgame(game)+"\n")
             bar()
-    
 
 if __name__ == "__main__":
     main()
