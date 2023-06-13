@@ -1,7 +1,3 @@
-from msvcrt import getch
-from src.GameList import GameList
-from src.Home import Home
-from src.Search import Search
 from alive_progress import alive_bar
 import requests
 import re
@@ -18,25 +14,25 @@ def getfromplayer(player):
         bar.title(f'-> Fetching')
         pid = get_pid(page.text)
         print(pid)
-        getch()
 
-        page=requests.get(f"https://www.chessgames.com/perl/chessplayer?pid={pid}",)
-
-        games="\n"
-    
-        driver.get(f"https://www.chessgames.com/perl/chess.pl?page=1&pid={pid}")
-        gameList = GameList(driver)
+        page=requests.get(f"https://www.chessgames.com/perl/chess.pl?page=1&pid={pid}",headers=headers)
         i=1
-        pageCount = gameList.get_page_count()
-        
+        pageCount = get_page_count(page.text)
     with alive_bar(pageCount,enrich_print=True,bar='filling',spinner='classic') as bar:
         bar.title(f'-> Getting from pages')
         while i<=pageCount:
-            driver.get(f"https://www.chessgames.com/perl/chess.pl?page={i}&pid={pid}")
-            gameList = GameList(driver)
-            gameList.get_game_list()
+            page=requests.get(f"https://www.chessgames.com/perl/chess.pl?page={i}&pid={pid}",headers=headers)
+            get_game_list(page.text)
             i+=1
             bar(1)
             
 def get_pid(page):
     return re.findall(r'Player profile: <B><a href="/perl/chessplayer\?pid=(.*)">',page)
+def get_page_count(page):
+    return int(re.findall(r'page 1 of (.*?);',page)[0])
+def get_game_list(page):
+    links = re.findall(r'<a href="/perl/chessgame\?gid=(.*?)">',page)
+    for link in links:
+        gamelist = open("gamelist.txt","a")
+        gamelist.write(f"https://www.chessgames.com/perl/chessgame?gid={str(link)}\n")
+        gamelist.close()
