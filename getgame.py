@@ -10,4 +10,3 @@ def getgame(game):
     }
     r = requests.get(url, headers=headers) 
     result.write(r.text)
-    print(r.text)
