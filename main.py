@@ -5,15 +5,16 @@ from alive_progress import alive_bar
 def main():
     playerlist = open("playerlist.txt", "r")
     
-    for player in playerlist.readlines():
-        getfromplayer(player)
+    #for player in playerlist.readlines():
+    #    getfromplayer(player)
     
     gamelist = open("gamelist.txt", "r").readlines()
     
     with alive_bar(len(gamelist),bar='filling') as bar:
         bar.title("Exporting games to result.pgn")
+        result = open("result.pgn","w")
         for game in gamelist:
-            getgame(game)
+            result.write(getgame(game)+"\n")
             bar()
     
 
