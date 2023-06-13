@@ -5160,4 +5160,485 @@ Rf1+ 29.Kg2 Nxd2 30.Qxd2 R1f2+ 31.Nxf2 Rxf2+ 32.Qxf2 gxf2 0-1[Event "Breslau"]
 1.e4 e5 2.d4 exd4 3.Bc4 Nc6 4.Nf3 Qf6 5.O-O d6 6.c3 d3 7.Bg5
 Qg6 8.Bxd3 Bg4 9.Nbd2 Be7 10.Bf4 Nh6 11.Qb3 Bxf3 12.Nxf3 Rb8
 13.Rae1 Qh5 14.Nd4 O-O 15.Bxh6 Qxh6 16.f4 Bf6 17.Nf5 Qh5
-18.Rf3 Ne7 19.Rh3 Qg4 20.Nh6+ gxh6 21.Rg3 1-0
+18.Rf3 Ne7 19.Rh3 Qg4 20.Nh6+ gxh6 21.Rg3 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1844.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Seligo"]
+[Black "Adolf Anderssen"]
+[ECO "C26"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "55"]
+
+1. e4 e5 2. Bc4 Nf6 3. Nc3 Bc5 4. h3 O-O 5. a3 c6 6. Nf3 d5
+7. exd5 cxd5 8. Ba2 Nc6 9. O-O e4 10. Nh2 Qd6 11. d3 Qg3
+12. Ne2 Qg6 13. Kh1 Nh5 14. d4 Bd6 15. f4 Be6 16. Qe1 f5
+17. b3 Rf6 18. c4 Qf7 19. Be3 Rg6 20. Qh4 Qf8 21. Qxh5 Be7
+22. Nc3 Rg4 23. hxg4 g6 24. Qh3 fxg4 25. Qg3 h5 26. cxd5 h4
+27. Qe1 Bf5 28. dxc6 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "C38"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "64"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.d4 d6 6.c3 h6 7.Qb3 Qe7
+8.O-O Nd7 9.Na3 Nb6 10.Bd2 Bd7 11.Rae1 Ba4 12.Bb5+ Bxb5
+13.Qxb5+ c6 14.Qa5 Qd7 15.e5 d5 16.e6 fxe6 17.Rxe6+ Qxe6
+18.Re1 Qxe1+ 19.Nxe1 Nf6 20.Nd3 Ne4 21.Be1 O-O 22.b3 Rf7
+23.Nc2 g4 24.Qa3 g3 25.Qc1 Raf8 26.Bd2 f3 27.gxf3 Rxf3 28.Nce1
+Rf1+ 29.Kg2 Nxd2 30.Qxd2 R1f2+ 31.Nxf2 Rxf2+ 32.Qxf2 gxf2 0-1[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Baron Tassilo von Heydebrand und der Lasa"]
+[Black "Adolf Anderssen"]
+[ECO "C44"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "41"]
+
+1.e4 e5 2.d4 exd4 3.Bc4 Nc6 4.Nf3 Qf6 5.O-O d6 6.c3 d3 7.Bg5
+Qg6 8.Bxd3 Bg4 9.Nbd2 Be7 10.Bf4 Nh6 11.Qb3 Bxf3 12.Nxf3 Rb8
+13.Rae1 Qh5 14.Nd4 O-O 15.Bxh6 Qxh6 16.f4 Bf6 17.Nf5 Qh5
+18.Rf3 Ne7 19.Rh3 Qg4 20.Nh6+ gxh6 21.Rg3 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.04.15"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Baron Tassilo von Heydebrand und der Lasa"]
+[Black "Adolf Anderssen"]
+[ECO "C39"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "95"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Bc4 Rh7 7.d4 Qf6
+8.Nc3 Ne7 9.O-O Bh6 10.g3 d6 11.Nxf7 Rxf7 12.Bxf7+ Qxf7
+13.Bxf4 Bxf4 14.Rxf4 Qg7 15.Qd3 Be6 16.d5 Bg8 17.Qb5+ Nd7
+18.Qxb7 Qd4+ 19.Kg2 Rb8 20.Qxc7 Rxb2 21.Rf2 Nc5 22.Raf1 Nd7
+23.Re2 Ne5 24.a4 Bh7 25.Rd1 Qc4 26.Qxc4 Nxc4 27.Nb5 Ng6
+28.Nxa7 Ra2 29.Rb1 Rxa4 30.Rb8+ Kf7 31.Rb7+ Kg8 32.Kf2 Nge5
+33.Nc6 Ra3 34.Rb8+ Kg7 35.Rb7+ Kh6 36.Nxe5 dxe5 37.Rb4 Nd6
+38.Rb6 Rf3+ 39.Ke1 Rf6 40.c4 Kg7 41.c5 Nxe4 42.c6 Rf7 43.Rb4
+Nd6 44.Rxe5 Bf5 45.Kd2 Kf6 46.Re3 Re7 47.Rxe7 Kxe7 48.Ke3 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.06.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "B01"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "57"]
+
+1.e4 d5 2.exd5 Nf6 3.Nf3 Bg4 4.Be2 Nxd5 5.O-O e6 6.d4 c5 7.Ne5
+Bxe2 8.Qxe2 cxd4 9.Re1 Bd6 10.Qb5+ Nd7 11.Nc4 Bc5 12.Qxb7 O-O
+13.Qb3 Qc7 14.Nba3 Rab8 15.Qh3 e5 16.Qg3 f6 17.Bh6 Rf7 18.Rad1
+Bxa3 19.Nxa3 Rxb2 20.Bc1 Rb8 21.c4 Ne7 22.Nb5 Qc6 23.Ba3 Nf5
+24.Qh3 Qxc4 25.Qxf5 Rxb5 26.Rc1 Qd5 27.Rc8+ Nf8 28.Rec1 Qb7
+29.Bxf8 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1846.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "C58"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "68"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5+ c6
+7.dxc6 bxc6 8.Ba4 Bd6 9.d3 h6 10.Ne4 Nxe4 11.dxe4 Ba6 12.Nc3
+Rb8 13.Bb3 O-O 14.Bd2 Bc5 15.Qg4 Kh8 16.O-O-O Bd4 17.f4 Nxb3+
+18.axb3 f6 19.f5 Qb6 20.Na4 Qb7 21.h4 c5 22.Rh3 c4 23.Rg3 Bb5
+24.Nc3 Bc6 25.Ne2 Bf2 26.Rf3 Bc5 27.Ng3 cxb3 28.Rxb3 Qa6
+29.Kb1 Rxb3 30.cxb3 Qd3+ 31.Kc1 Rc8 32.Qxg7+ Kxg7 33.Bxh6+
+Kxh6 34.Rxd3 Bf2 0-1[Event "Breslau"]
+[Site "Breslau"]
+[Date "1846.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Baron Tassilo von Heydebrand und der Lasa"]
+[Black "Adolf Anderssen"]
+[ECO "B21"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "40"]
+
+1.e4 c5 2.d4 cxd4 3.Nf3 Nc6 4.Bc4 e6 5.Nxd4 Bc5 6.Nf3 Nge7
+7.Nc3 O-O 8.a3 Ng6 9.O-O f5 10.exf5 Rxf5 11.Bd3 Rh5 12.g4 Rh3
+13.Kg2 Rxf3 14.Kxf3 Qh4 15.Kg2 Nce5 16.h3 b6 17.Bxg6 hxg6
+18.Bf4 Bb7+ 19.f3 Nxf3 20.Rxf3 Qf2+ 0-1[Event "Breslau"]
+[Site "Breslau"]
+[Date "1846.??.??"]
+[EventDate "1846.??.??"]
+[Round "?"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "C37"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "56"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O gxf3 6. Qxf3
+Qf6 7. e5 Qxe5 8. d3 Bh6 9. Bd2 Ne7 10. Nc3 c6 11. Rae1 Qc5+
+12. Kh1 d5 13. Qh5 Qd6 14. Bxd5 cxd5 15. Nxd5 Nbc6 16. Rxe7+
+Nxe7 17. Re1 O-O 18. Nxe7+ Kh8 19. Nd5 Qg6 20. Qh4 Be6
+21. Bc3+ Bg7 22. Nf6 Rac8 23. Nxh7 Qxh7 24. Bxg7+ Kxg7
+25. Qxf4 Qf5 26. Qg3+ Qg4 27. Qe5+ f6 28. Qd6 Rxc2 0-1[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "1848.??.??"]
+[Round "4"]
+[Result "0-1"]
+[White "Daniel Harrwitz"]
+[Black "Adolf Anderssen"]
+[ECO "C33"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "100"]
+
+1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 Ne7 7.Nf3
+Qh5 8.e5 g4 9.Ng1 f3 10.gxf3 gxf3 11.Qxf3 Qxf3+ 12.Nxf3 b6
+13.Rg1 Bf8 14.Ng5 Ba6 15.Bxa6 Nxa6 16.Nce4 Ng8 17.Nxh7 Rxh7
+18.Rxg8 O-O-O 19.Bg5 Be7 20.Rxd8+ Bxd8 21.Bxd8 Kxd8 22.Kg2 Rh4
+23.Re1 Nb4 24.c3 Nd3 25.Re2 Ke7 26.Kg3 Rh8 27.h4 c5 28.Rd2 c4
+29.b3 Rg8+ 30.Ng5 b5 31.Rd1 d6 32.exd6 Kxd6 33.Rf1 b4 34.Kf3
+Rxg5 35.hxg5 bxc3 36.Ke3 c2 37.Kd2 c1=Q+ 38.Rxc1 Nxc1 39.Kxc1
+cxb3 40.a4 a5 41.Kb2 Kd5 42.Kc3 b2 43.Kxb2 Kxd4 44.Kb3 Kd3
+45.Kb2 Kc4 46.Kc2 Kb4 47.Kb2 Kxa4 48.Kc3 Kb5 49.Kb3 Kc5 50.Ka4
+Kd5 0-1[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "1848.??.??"]
+[Round "5"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Daniel Harrwitz"]
+[ECO "D32"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "68"]
+
+1.d4 d5 2.c4 e6 3.e3 c5 4.Nc3 Nf6 5.Nf3 Nc6 6.a3 a6 7.b3 b6
+8.Bb2 cxd4 9.exd4 Bd6 10.Bd3 Bb7 11.Rc1 Ne7 12.Ne2 dxc4
+13.bxc4 Bxf3 14.gxf3 O-O 15.h4 Nh5 16.Qd2 Ng6 17.Kf1 f5 18.Qe3
+Ngf4 19.Bb1 Qe7 20.c5 bxc5 21.dxc5 Bc7 22.Nd4 Kh8 23.Nxf5 Rxf5
+24.Bxf5 Qd7 25.Bxe6 Qxe6 26.Qxe6 Nxe6 27.Rg1 Rb8 28.Rc2 Nhf4
+29.Rd2 Ba5 30.Rc2 h5 31.Bc1 Rb1 32.Rg5 Nxg5 33.hxg5 Nd3 34.Ke2
+Rxc1 0-1[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "1848.??.??"]
+[Round "7"]
+[Result "1-0"]
+[White "Adolf Anderssen"]
+[Black "Daniel Harrwitz"]
+[ECO "B21"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "55"]
+
+1.e4 c5 2.d4 cxd4 3.Nf3 e5 4.Bc4 Nc6 5.Ng5 Nh6 6.f4 d6 7.O-O
+Bg4 8.Bxf7+ Ke7 9.Qe1 Nxf7 10.fxe5 Nfxe5 11.c3 d3 12.h3 Be6
+13.Be3 Kd7 14.Nd2 Be7 15.Nxe6 Kxe6 16.Qd1 Kd7 17.Bd4 Bf6 18.b4
+Nxd4 19.cxd4 Nc6 20.Qg4+ Kc7 21.Rac1 Bxd4+ 22.Kh1 Kb8 23.Nb3
+Bf6 24.Rxc6 bxc6 25.e5 Bxe5 26.Na5 Qe8 27.Qc4 c5 28.Qd5 1-0[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "1848.??.??"]
+[Round "10"]
+[Result "0-1"]
+[White "Daniel Harrwitz"]
+[Black "Adolf Anderssen"]
+[ECO "C33"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "51"]
+
+1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.Nf3 Qh5
+7.Nd5 Kd8 8.d4 c6 9.Nc3 d6 10.h4 h6 11.Kg1 g4 12.Ne1 f3 13.Be3
+f5 14.gxf3 gxf3 15.Kf2 Nf6 16.Qxf3 Qxf3+ 17.Kxf3 fxe4 18.Ke2
+d5 19.Bb3 Ng4 20.Ng2 Nxe3 21.Kxe3 Bg4 22.Raf1 h5 23.Nf4 Bh6
+24.Ne2 Rf8 25.Rh2 Na6 26.c4 Nc7 {After 26... Nc7 Harwitz
+resigned because he had accidentally touched Rf1 and noticed
+he couldn't play that Rook without losing a minor
+piece. Source: Schachzeitung 1848, page 284.} 0-1[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "1848.??.??"]
+[Round "8"]
+[Result "1-0"]
+[White "Daniel Harrwitz"]
+[Black "Adolf Anderssen"]
+[ECO "C44"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "63"]
+
+1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5 6.Qa4 Nge7
+7.f4 exf3 8.Nxf3 Be6 9.O-O O-O-O 10.d4 Qh5 11.c4 Bg4 12.d5 Nf5
+13.Bf4 Bc5+ 14.Kh1 Nce7 15.b4 Bd4 16.Nxd4 Nxd4 17.Nc3 Kb8
+18.Be3 Nxb5 19.Nxb5 a6 20.Nxc7 Kxc7 21.d6+ Kxd6 22.Bf4+ Ke6
+23.Rae1+ Be2 24.Rf2 Nf5 25.Rexe2+ Kf6 26.Be5+ Kg6 27.g4 Qxg4
+28.Rg2 h5 29.Rxg4+ hxg4 30.Qc2 Rh3 31.Qe4 Kg5 32.Qf4+ 1-0[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "1848.??.??"]
+[Round "6"]
+[Result "0-1"]
+[White "Daniel Harrwitz"]
+[Black "Adolf Anderssen"]
+[ECO "C33"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "72"]
+
+1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.d4 Bg7 6.Nc3 Ne7 7.Nf3
+Qh5 8.e5 f6 9.Ne4 Rf8 10.Kg1 g4 11.exf6 Bxf6 12.Nxf6+ Rxf6
+13.Ne5 d5 14.Be2 f3 15.gxf3 gxf3 16.Bxf3 Qh4 17.Be3 Nbc6
+18.Bf2 Qf4 19.Bh5+ Kf8 20.Nd3 Qg5+ 21.Bg3 Nxd4 22.Nf2 Nef5
+23.Qg4 Qe3 24.Bf4 Ne2+ 25.Qxe2 Qxf4 26.Re1 Be6 27.Qg4 Qd6
+28.Qg5 Bf7 29.Bxf7 Rxf7 30.Kf1 Qa6+ 31.Nd3 Qc4 32.Rg1 Nh4+
+33.Ke2 Qxc2+ 34.Ke3 Rf3+ 35.Kd4 c5+ 36.Ke5 Re8+ 0-1[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "?"]
+[Round "9"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Daniel Harrwitz"]
+[ECO "B21"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "60"]
+
+1.e4 c5 2.d4 cxd4 3.Nf3 e5 4.Bc4 Qc7 5.Bb3 Bb4+ 6.c3 dxc3
+7.O-O Nf6 8.Bxf7+ Kxf7 9.Qb3+ d5 10.Qxb4 dxe4 11.Ng5+ Kg6
+12.Nxc3 Nc6 13.Qc4 Bf5 14.f4 h6 15.Ngxe4 Nxe4 16.Nxe4 b5
+17.Qe2 Nd4 18.Qd3 Qc6 19.Re1 Nc2 20.Bd2 Rhd8 21.Qf3 Bxe4
+22.Rxe4 Nxa1 23.fxe5 Kh7 24.Bc3 Qb6+ 25.Kh1 Rf8 26.Qd3 Rad8
+27.Qb1 Qg6 28.h3 Rf2 29.Re1 Nc2 30.Rg1 Rd3 0-1[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.01.??"]
+[EventDate "1848.??.??"]
+[Round "1"]
+[Result "1-0"]
+[White "Adolf Anderssen"]
+[Black "Daniel Harrwitz"]
+[ECO "C54"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "73"]
+
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.c3 Nf6 6.e5 d5 7.Bb5
+Ne4 8.cxd4 Bb4+ 9.Bd2 Bxd2+ 10.Nbxd2 O-O 11.Bxc6 bxc6 12.O-O
+f5 13.Rc1 Qe8 14.Qc2 Rb8 15.Nb3 Rb6 16.Nfd2 Qh5 17.f3 Nxd2
+18.Qxd2 f4 19.Nc5 Qg6 20.Rfe1 Be6 21.Rc3 Qe8 22.Ra3 Bf5 23.b3
+a6 24.Rxa6 Rxa6 25.Nxa6 Qc8 26.Nc5 Be6 27.a4 g6 28.a5 Re8
+29.a6 Qb8 30.Ra1 Qa7 31.Qb4 Kf7 32.Qb7 Qb6 33.a7 Qxb7 34.Nxb7
+Ra8 35.Nd8+ Ke7 36.Nxe6 Kxe6 37.b4 1-0[Event "Blindfold exhibition game"]
+[Site "Breslau POL"]
+[Date "1848.01.26"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Daniel Harrwitz"]
+[Black "Adolf Anderssen"]
+[ECO "C39"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "76"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Bc4 Rh7 7.d4 f3
+8.gxf3 d6 9.Nd3 Be7 10.Bg5 Bxg5 11.hxg5 Qxg5 12.f4 Qe7 13.Nc3
+Be6 14.d5 Bc8 15.Qe2 Nd7 16.O-O-O Nb6 17.Bb3 Bd7 18.e5 O-O-O
+19.Ne4 Bf5 20.Ng3 Bxd3 21.Qxd3 Rh8 22.Qf5+ Kb8 23.Rxh5 Rxh5
+24.Qxh5 Nf6 25.Qg5 Ng8 26.Qxg4 dxe5 27.Re1 Nf6 28.Qf5 Nfxd5
+29.Rxe5 Ne3 30.Qh5 Qd6 31.Bd5 Nbxd5 32.Ne4 Qc6 33.c3 Nxf4
+34.Qf3 Nd3+ 35.Kb1 Nxe5 36.Qxe3 f5 37.Nd2 Nc4 38.Nxc4 Qxc4 0-1[Event "Breslau"]
+[Site "Breslau"]
+[Date "1844.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Seligo"]
+[Black "Adolf Anderssen"]
+[ECO "C26"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "55"]
+
+1. e4 e5 2. Bc4 Nf6 3. Nc3 Bc5 4. h3 O-O 5. a3 c6 6. Nf3 d5
+7. exd5 cxd5 8. Ba2 Nc6 9. O-O e4 10. Nh2 Qd6 11. d3 Qg3
+12. Ne2 Qg6 13. Kh1 Nh5 14. d4 Bd6 15. f4 Be6 16. Qe1 f5
+17. b3 Rf6 18. c4 Qf7 19. Be3 Rg6 20. Qh4 Qf8 21. Qxh5 Be7
+22. Nc3 Rg4 23. hxg4 g6 24. Qh3 fxg4 25. Qg3 h5 26. cxd5 h4
+27. Qe1 Bf5 28. dxc6 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "C38"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "64"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 Bg7 5.d4 d6 6.c3 h6 7.Qb3 Qe7
+8.O-O Nd7 9.Na3 Nb6 10.Bd2 Bd7 11.Rae1 Ba4 12.Bb5+ Bxb5
+13.Qxb5+ c6 14.Qa5 Qd7 15.e5 d5 16.e6 fxe6 17.Rxe6+ Qxe6
+18.Re1 Qxe1+ 19.Nxe1 Nf6 20.Nd3 Ne4 21.Be1 O-O 22.b3 Rf7
+23.Nc2 g4 24.Qa3 g3 25.Qc1 Raf8 26.Bd2 f3 27.gxf3 Rxf3 28.Nce1
+Rf1+ 29.Kg2 Nxd2 30.Qxd2 R1f2+ 31.Nxf2 Rxf2+ 32.Qxf2 gxf2 0-1[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Baron Tassilo von Heydebrand und der Lasa"]
+[Black "Adolf Anderssen"]
+[ECO "C44"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "41"]
+
+1.e4 e5 2.d4 exd4 3.Bc4 Nc6 4.Nf3 Qf6 5.O-O d6 6.c3 d3 7.Bg5
+Qg6 8.Bxd3 Bg4 9.Nbd2 Be7 10.Bf4 Nh6 11.Qb3 Bxf3 12.Nxf3 Rb8
+13.Rae1 Qh5 14.Nd4 O-O 15.Bxh6 Qxh6 16.f4 Bf6 17.Nf5 Qh5
+18.Rf3 Ne7 19.Rh3 Qg4 20.Nh6+ gxh6 21.Rg3 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.04.15"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Baron Tassilo von Heydebrand und der Lasa"]
+[Black "Adolf Anderssen"]
+[ECO "C39"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "95"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Bc4 Rh7 7.d4 Qf6
+8.Nc3 Ne7 9.O-O Bh6 10.g3 d6 11.Nxf7 Rxf7 12.Bxf7+ Qxf7
+13.Bxf4 Bxf4 14.Rxf4 Qg7 15.Qd3 Be6 16.d5 Bg8 17.Qb5+ Nd7
+18.Qxb7 Qd4+ 19.Kg2 Rb8 20.Qxc7 Rxb2 21.Rf2 Nc5 22.Raf1 Nd7
+23.Re2 Ne5 24.a4 Bh7 25.Rd1 Qc4 26.Qxc4 Nxc4 27.Nb5 Ng6
+28.Nxa7 Ra2 29.Rb1 Rxa4 30.Rb8+ Kf7 31.Rb7+ Kg8 32.Kf2 Nge5
+33.Nc6 Ra3 34.Rb8+ Kg7 35.Rb7+ Kh6 36.Nxe5 dxe5 37.Rb4 Nd6
+38.Rb6 Rf3+ 39.Ke1 Rf6 40.c4 Kg7 41.c5 Nxe4 42.c6 Rf7 43.Rb4
+Nd6 44.Rxe5 Bf5 45.Kd2 Kf6 46.Re3 Re7 47.Rxe7 Kxe7 48.Ke3 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1845.06.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "1-0"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "B01"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "57"]
+
+1.e4 d5 2.exd5 Nf6 3.Nf3 Bg4 4.Be2 Nxd5 5.O-O e6 6.d4 c5 7.Ne5
+Bxe2 8.Qxe2 cxd4 9.Re1 Bd6 10.Qb5+ Nd7 11.Nc4 Bc5 12.Qxb7 O-O
+13.Qb3 Qc7 14.Nba3 Rab8 15.Qh3 e5 16.Qg3 f6 17.Bh6 Rf7 18.Rad1
+Bxa3 19.Nxa3 Rxb2 20.Bc1 Rb8 21.c4 Ne7 22.Nb5 Qc6 23.Ba3 Nf5
+24.Qh3 Qxc4 25.Qxf5 Rxb5 26.Rc1 Qd5 27.Rc8+ Nf8 28.Rec1 Qb7
+29.Bxf8 1-0[Event "Breslau"]
+[Site "Breslau"]
+[Date "1846.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "C58"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "68"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5+ c6
+7.dxc6 bxc6 8.Ba4 Bd6 9.d3 h6 10.Ne4 Nxe4 11.dxe4 Ba6 12.Nc3
+Rb8 13.Bb3 O-O 14.Bd2 Bc5 15.Qg4 Kh8 16.O-O-O Bd4 17.f4 Nxb3+
+18.axb3 f6 19.f5 Qb6 20.Na4 Qb7 21.h4 c5 22.Rh3 c4 23.Rg3 Bb5
+24.Nc3 Bc6 25.Ne2 Bf2 26.Rf3 Bc5 27.Ng3 cxb3 28.Rxb3 Qa6
+29.Kb1 Rxb3 30.cxb3 Qd3+ 31.Kc1 Rc8 32.Qxg7+ Kxg7 33.Bxh6+
+Kxh6 34.Rxd3 Bf2 0-1[Event "Breslau"]
+[Site "Breslau"]
+[Date "1846.??.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Baron Tassilo von Heydebrand und der Lasa"]
+[Black "Adolf Anderssen"]
+[ECO "B21"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "40"]
+
+1.e4 c5 2.d4 cxd4 3.Nf3 Nc6 4.Bc4 e6 5.Nxd4 Bc5 6.Nf3 Nge7
+7.Nc3 O-O 8.a3 Ng6 9.O-O f5 10.exf5 Rxf5 11.Bd3 Rh5 12.g4 Rh3
+13.Kg2 Rxf3 14.Kxf3 Qh4 15.Kg2 Nce5 16.h3 b6 17.Bxg6 hxg6
+18.Bf4 Bb7+ 19.f3 Nxf3 20.Rxf3 Qf2+ 0-1[Event "Breslau"]
+[Site "Breslau"]
+[Date "1846.??.??"]
+[EventDate "1846.??.??"]
+[Round "?"]
+[Result "0-1"]
+[White "Adolf Anderssen"]
+[Black "Baron Tassilo von Heydebrand und der Lasa"]
+[ECO "C37"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "56"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O gxf3 6. Qxf3
+Qf6 7. e5 Qxe5 8. d3 Bh6 9. Bd2 Ne7 10. Nc3 c6 11. Rae1 Qc5+
+12. Kh1 d5 13. Qh5 Qd6 14. Bxd5 cxd5 15. Nxd5 Nbc6 16. Rxe7+
+Nxe7 17. Re1 O-O 18. Nxe7+ Kh8 19. Nd5 Qg6 20. Qh4 Be6
+21. Bc3+ Bg7 22. Nf6 Rac8 23. Nxh7 Qxh7 24. Bxg7+ Kxg7
+25. Qxf4 Qf5 26. Qg3+ Qg4 27. Qe5+ f6 28. Qd6 Rxc2 0-1[Event "Anderssen - Harrwitz"]
+[Site "Breslau GER"]
+[Date "1848.??.??"]
+[EventDate "1848.??.??"]
+[Round "4"]
+[Result "0-1"]
+[White "Daniel Harrwitz"]
+[Black "Adolf Anderssen"]
+[ECO "C33"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "100"]
+
+1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 Ne7 7.Nf3
+Qh5 8.e5 g4 9.Ng1 f3 10.gxf3 gxf3 11.Qxf3 Qxf3+ 12.Nxf3 b6
+13.Rg1 Bf8 14.Ng5 Ba6 15.Bxa6 Nxa6 16.Nce4 Ng8 17.Nxh7 Rxh7
+18.Rxg8 O-O-O 19.Bg5 Be7 20.Rxd8+ Bxd8 21.Bxd8 Kxd8 22.Kg2 Rh4
+23.Re1 Nb4 24.c3 Nd3 25.Re2 Ke7 26.Kg3 Rh8 27.h4 c5 28.Rd2 c4
+29.b3 Rg8+ 30.Ng5 b5 31.Rd1 d6 32.exd6 Kxd6 33.Rf1 b4 34.Kf3
+Rxg5 35.hxg5 bxc3 36.Ke3 c2 37.Kd2 c1=Q+ 38.Rxc1 Nxc1 39.Kxc1
+cxb3 40.a4 a5 41.Kb2 Kd5 42.Kc3 b2 43.Kxb2 Kxd4 44.Kb3 Kd3
+45.Kb2 Kc4 46.Kc2 Kb4 47.Kb2 Kxa4 48.Kc3 Kb5 49.Kb3 Kc5 50.Ka4
+Kd5 0-1

@@ -13,11 +13,15 @@ def main():
     gamelist = open("gamelist.txt", "r").readlines()
     lists=list(split(gamelist,5))
     
-    t1 = threading.Thread(target=work(lists[0]), name='t1')
-    t2 = threading.Thread(target=work(lists[1]), name='t3')
-    t3 = threading.Thread(target=work(lists[2]), name='t3')
-    t4 = threading.Thread(target=work(lists[3]), name='t4')
-    t5 = threading.Thread(target=work(lists[3]), name='t5')
+    threads=[]
+    
+    for i in range(0,4):
+        thread = threading.Thread(target=work(lists[i]), args=(i,))
+        threads.append(thread)
+        thread.start()
+
+    for thread in threads:
+        thread.join()
 
 def work(gamelist):
     with alive_bar(len(gamelist),bar='filling') as bar:
