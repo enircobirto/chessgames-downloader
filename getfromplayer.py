@@ -1,20 +1,26 @@
+from msvcrt import getch
 from src.GameList import GameList
 from src.Home import Home
 from src.Search import Search
 from alive_progress import alive_bar
+import requests
+import re
 
-def getfromplayer(driver,player):
-    driver.get("https://www.chessgames.com/")
-    home = Home(driver)
-    home.type_player(player)
-    # home.search()
+def getfromplayer(player):
+    url=f"https://www.chessgames.com/perl/ezsearch.pl?search={player}"
+    headers = {
+        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        'Accept-Encoding': 'identity'
+    }
+    page = requests.get(url, headers=headers) 
     print(f"\n\n> {player}")
     with alive_bar(theme='classic',length='5') as bar:
         bar.title(f'-> Fetching')
-        search = Search(driver)
-        pid = search.get_pid().split("pid=")[1]
+        pid = get_pid(page.text)
+        print(pid)
+        getch()
 
-        driver.get(f"https://www.chessgames.com/perl/chessplayer?pid={pid}")
+        page=requests.get(f"https://www.chessgames.com/perl/chessplayer?pid={pid}",)
 
         games="\n"
     
@@ -31,3 +37,6 @@ def getfromplayer(driver,player):
             gameList.get_game_list()
             i+=1
             bar(1)
+            
+def get_pid(page):
+    return re.findall(r'Player profile: <B><a href="/perl/chessplayer\?pid=(.*)">',page)

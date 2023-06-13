@@ -10,7 +10,6 @@ def main():
     options = webdriver.ChromeOptions()
     options.add_extension('ext/adblock.crx')
     options.add_argument("--profile-directory=chromeprofile")
-    options.add_argument("--headless=new")
     options.add_argument(f"--user-data-dir={os.getcwd()}/chromeprofile".replace("\\","/"))
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
@@ -19,7 +18,7 @@ def main():
     playerlist = open("playerlist.txt", "r")
     
     for player in playerlist.readlines():
-        getfromplayer(driver,player)
+        getfromplayer(player)
     
     print("> Closing driver")
     

@@ -11,6 +11,6 @@ class Home(PageFactory):
     }
     
     def type_player(self,text):
-        self.searchInput.set_text(text+'\n')
+        self.searchInput.set_text(text)
     def search(self):
         self.searchButton.click()
