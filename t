@@ -1,4 +1,5 @@
 Anderssen
+Morphy
 Blackburne
 Charousek
 Spielmann
