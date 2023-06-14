@@ -1,2 +1,9 @@
 chromeprofile/*
 __pycache__/*
+gamelist.txt
+gamelist.txt
+playerlist.txt
+result.pgn
+__pycache__/getfromplayer.cpython-310.pyc
+__pycache__/getgame.cpython-310.pyc
+__pycache__/getgame.cpython-310.pyc
