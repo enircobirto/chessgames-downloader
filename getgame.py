@@ -1,3 +1,4 @@
+from msvcrt import getch
 import requests
 import re
 
@@ -9,4 +10,9 @@ def getgame(game):
     }
     r = requests.get(url, headers=headers) 
 
+    lines=r.text.split('\n')
+    nonemptylines=[line for line in lines if line.strip()!='']
+    result=""
+    for line in nonemptylines:
+        result+=line+'\n'
     return r.text+'\n'

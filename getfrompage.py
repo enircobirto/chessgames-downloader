@@ -13,6 +13,6 @@ def getfrompage(page):
 def get_game_list(page):
     links = re.findall(r'<a href="/perl/chessgame\?gid=(.*?)">',page)
     for link in links:
-        gamelist = open("gamelist.txt","a+")
+        gamelist = open("gamelist","a+")
         gamelist.write(f"https://www.chessgames.com/perl/chessgame?gid={str(link)}\n")
         gamelist.close()
