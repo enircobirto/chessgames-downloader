@@ -19,8 +19,8 @@ def getfromplayer(player):
 
         #return (f"\n-> {player}: {pageCount} pages")
     except:
-        pass
-        return (f"-> Error getting info from {player}")
+        info = dict({"player":player.strip(),"pid":'ERROR',"max":'ERROR'})
+        return info
 
 def getfrompage(page):
     headers = {

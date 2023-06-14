@@ -19,7 +19,8 @@ def main():
        with Pool(n) as pool:
             for result in pool.imap_unordered(getfromplayer,playerlist):
                 print(f"> {result['player']}({result['pid']}): {result['max']} pages")
-                info.append(result)
+                if result['pid']!='ERROR':
+                    info.append(result)
                 bar()
     
     pagelist=[]
@@ -36,12 +37,12 @@ def main():
             for result in pool.imap_unordered(getfrompage,pagelist):
                 bar()
     
-    gamelist = open("gamelist.txt", "r").readlines()
+    gamelist = open("gamelist.txt", "r", encoding='utf-8').readlines()
 
     section = list(split(gamelist,len(gamelist)//n))
     section.append(gamelist[:-len(gamelist)%n])
 
-    with alive_bar(len(gamelist),title='Exporting games to result.pgn',bar='filling') as bar:
+    with alive_bar(len(gamelist),title='Exporting games to result.pgn',bar='filling',spinner='classic') as bar:
         with Pool(n) as pool:
             for result in pool.imap_unordered(getgame,gamelist):
                 bar()
