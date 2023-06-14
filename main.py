@@ -1,16 +1,24 @@
-from msvcrt import getch
 from multiprocessing import Process, Pool
-import re
+import argparse
 
-import pandas as pd
 from getfromplayer import getfromplayer,getfrompage
 from alive_progress import alive_bar
 from getgame import getgame
 from pprint import pprint
 
-def main():
-    playerlist = open("playerlist.txt", "r").readlines()
-    
+def main(args):
+    try:
+        playerlist = open(args.playersfile, "r").readlines()
+    except:
+        playerlist=[]
+    for player in args.players.split(','):
+        playerlist.append(f'{player.strip()}\n')
+
+    if(len(playerlist)==0):
+        return "<!> Empty player list!"
+
+    print(playerlist)
+        
     n = min(len(playerlist),8)
     
     info = []
@@ -34,6 +42,7 @@ def main():
                 'page':num
             }))
     n = 16 
+
     with alive_bar(len(pagelist),title='Getting game links from pages',bar='filling',spinner='classic') as bar:
         with Pool(n) as pool:
             for result in pool.imap_unordered(getfrompage,pagelist):
@@ -44,14 +53,27 @@ def main():
     section = list(split(gamelist,len(gamelist)//n))
     section.append(gamelist[:-len(gamelist)%n])
 
-    with alive_bar(len(gamelist),title='Exporting games to result.pgn',bar='filling',spinner='classic') as bar:
+    with alive_bar(len(gamelist),title=f'Exporting games to {args.output}',bar='filling',spinner='classic') as bar:
         with Pool(n) as pool:
             for result in pool.imap_unordered(getgame,gamelist):
                 bar()
+                output = open(args.output,"a+",encoding='utf-8')
                 print(result)
+                output.write(result)
+                output.close()
+    
+    gamelist = open("gamelist.txt", "w", encoding='utf-8')
+    gamelist.write('')
+    gamelist.close()
 
 def split(lst, chunk_size):
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
 
+parser = argparse.ArgumentParser()
+parser.add_argument("-p","--players",default='',help="Players (encase in double quotes and separate with commas)")
+parser.add_argument("-pf","--playersfile",default='playerlist.txt',help="Player list file")
+parser.add_argument("-o","--output",default='output.pgn',help="Output PGN file")
+
 if __name__ == "__main__":
-    main()
+    args=parser.parse_args()
+    print(main(args))
