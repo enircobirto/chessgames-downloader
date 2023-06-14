@@ -9,6 +9,6 @@ def getgame(game):
         'User-Agent':'Mozilla/5.0',
     }
     r = requests.get(url, headers=headers) 
-    result.write(r.text)
+    result.write(r.text+'\n')
 
     return r.text
