@@ -18,9 +18,11 @@ def main():
     with alive_bar(len(playerlist),title='Getting info from players',bar='filling',spinner='classic') as bar:
        with Pool(n) as pool:
             for result in pool.imap_unordered(getfromplayer,playerlist):
-                print(f"> {result['player']}({result['pid']}): {result['max']} pages")
                 if result['pid']!='ERROR':
+                    print(f"> {result['player']}({result['pid']}): {result['max']} pages")
                     info.append(result)
+                else:
+                    print(f"> Error getting info from {result['player']}")
                 bar()
     
     pagelist=[]
