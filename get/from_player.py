@@ -3,7 +3,7 @@ import requests
 import json
 import re
 
-def getfromplayer(player):
+def from_player(player):
     try:
         url=f"https://www.chessgames.com/perl/ezsearch.pl?search={player}"
         headers = {

@@ -1,8 +1,7 @@
 import re
 import requests
 
-
-def getfrompage(page):
+def from_page(page):
     headers = {
         'User-Agent':'Mozilla/5.0',
     }

@@ -2,7 +2,7 @@ from msvcrt import getch
 import requests
 import re
 
-def getgame(game):
+def pgn(game):
     gid = game.split("gid=")[1]
     url = f'https://www.chessgames.com/nodejs/game/viewGamePGN?text=1&gid={gid}'
     headers = {
