@@ -17,8 +17,6 @@ def main(args):
     if(len(playerlist)==0):
         return "<!> Empty player list!"
 
-    print(playerlist)
-        
     n = min(len(playerlist),8)
     
     info = []
@@ -65,6 +63,8 @@ def main(args):
     gamelist = open("gamelist.txt", "w", encoding='utf-8')
     gamelist.write('')
     gamelist.close()
+    
+    return "\nDone."
 
 def split(lst, chunk_size):
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
