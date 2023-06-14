@@ -1,7 +1,8 @@
 from multiprocessing import Process, Pool
 import argparse
 
-from getfromplayer import getfromplayer,getfrompage
+from getfromplayer import getfromplayer
+from getfrompage import getfrompage
 from alive_progress import alive_bar
 from getgame import getgame
 from pprint import pprint
@@ -45,9 +46,12 @@ def main(args):
         with Pool(n) as pool:
             for result in pool.imap_unordered(getfrompage,pagelist):
                 bar()
-    
-    gamelist = open("gamelist.txt", "r", encoding='utf-8').readlines()
-
+    try:
+        gamelist = open("gamelist", "r", encoding='utf-8').readlines()
+    except:
+        gamelist = open("gamelist", "w", encoding='utf-8')
+        gamelist.close()
+        gamelist = open("gamelist", "r", encoding='utf-8').readlines()
     section = list(split(gamelist,len(gamelist)//n))
     section.append(gamelist[:-len(gamelist)%n])
 
@@ -61,7 +65,6 @@ def main(args):
                 output.close()
     
     gamelist = open("gamelist.txt", "w", encoding='utf-8')
-    gamelist.write('')
     gamelist.close()
     
     return "\nDone."
