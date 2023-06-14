@@ -15,7 +15,7 @@ def main():
     
     info = []
     
-    with alive_bar(len(playerlist),title='Getting info from players',bar='smooth',spinner='classic') as bar:
+    with alive_bar(len(playerlist),title='Getting info from players',bar='filling',spinner='classic') as bar:
        with Pool(n) as pool:
             for result in pool.imap_unordered(getfromplayer,playerlist):
                 print(f"> {result['player']}({result['pid']}): {result['max']} pages")
@@ -24,24 +24,22 @@ def main():
     
     pagelist=[]
     for i in info:
-        for n in range(1,i['max']):
+        for num in range(1,i['max']):
             pagelist.append(dict({
                 'player':i['player'],
                 'pid':i['pid'],
-                'page':n
+                'page':num
             }))
-    n = 8
-    with alive_bar(len(pagelist),title='Getting game links from pages',bar='smooth',spinner='classic') as bar:
+    n = 16 
+    with alive_bar(len(pagelist),title='Getting game links from pages',bar='filling',spinner='classic') as bar:
         with Pool(n) as pool:
             for result in pool.imap_unordered(getfrompage,pagelist):
                 bar()
     
     gamelist = open("gamelist.txt", "r").readlines()
-    n = 16
 
     section = list(split(gamelist,len(gamelist)//n))
     section.append(gamelist[:-len(gamelist)%n])
-
 
     with alive_bar(len(gamelist),title='Exporting games to result.pgn',bar='filling') as bar:
         with Pool(n) as pool:
