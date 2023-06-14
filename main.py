@@ -14,7 +14,6 @@ def main(args):
     playerlist = get_player_list(args)
     
     threads = 4
-    
     spaces=""
     for i in range(0,len(args.output)):
         spaces+=' '
@@ -26,7 +25,6 @@ def main(args):
     export_games(args.output,threads)
     
     return "\nDone."
-
 
 if __name__ == "__main__":
     args=parser.parse_args()
