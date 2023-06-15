@@ -3,7 +3,6 @@ from alive_progress import alive_bar
 
 from get.from_player import from_player
 
-
 def player_info(playerlist,spaces,n):
     info=[]
     with alive_bar(len(playerlist),title=f' > Extracting players {spaces}',bar='filling',spinner='classic') as bar:

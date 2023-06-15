@@ -1,8 +1,7 @@
-*__pycache__/*
+**/__pycache__/**
 playerlist.txt
 gamelist.txt
 t
 *.pgn
-__pycache__/getfromplayer.cpython-310.pyc
-__pycache__/getfromplayer.cpython-310.pyc
 gamelist
+*.pyc

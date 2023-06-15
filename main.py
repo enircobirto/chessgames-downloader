@@ -20,7 +20,7 @@ def main(args):
     except EmptyPlayerList:
         return " > Program failed."
 
-    threads = 4
+    threads = 8
     spaces=""
     for i in range(0,len(args.output)):
         spaces+=' '
@@ -32,11 +32,14 @@ def main(args):
     for i in info:
         playerlist.append(i['player'])
 
-    threads = 16 
-    get_page_list(info,spaces,threads)
-    
+    threads = 8 
     options = {'white_only':args.white_only,'black_only':args.black_only}
-    export_games(args.output,threads,options)
+    
+    for i in info:
+        get_page_list(i,spaces,threads,options)
+
+    
+    #export_games(args.output,threads)
     
     return "\nDone."
 
