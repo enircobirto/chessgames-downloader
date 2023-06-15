@@ -25,10 +25,8 @@ def pgn(info):
         except:
             return ''
         if similar(player,white) >= 0.7:
-            print(f"white: {white}, exporting.")
             return result+'\n'
         else:
-            print(f"white: {white}, NOT exporting.")
             return ''
     if options['black_only']:
         try:
@@ -36,10 +34,8 @@ def pgn(info):
         except:
             return ''
         if similar(player,black) >= 0.7:
-            print(f"black: {black}, exporting.")
             return result+'\n'
         else:
-            print(f"black: {black}, NOT exporting.")
             return ''
 
     return result+'\n'

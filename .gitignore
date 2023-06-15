@@ -6,3 +6,4 @@ t
 __pycache__/getfromplayer.cpython-310.pyc
 __pycache__/getfromplayer.cpython-310.pyc
 gamelist
+*.pyc

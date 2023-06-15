@@ -8,7 +8,7 @@ from get.from_page import from_page
 def get_page_list(info,spaces,n):
     pagelist=[]
     for i in info:
-        for num in range(1,i['max']):
+        for num in range(1,i['max']+1):
             pagelist.append(dict({
                 'player':i['player'],
                 'pid':i['pid'],

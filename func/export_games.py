@@ -19,5 +19,3 @@ def export_games(path,n,options):
                 output = open(path,"a+",encoding='utf-8')
                 output.write(result)
                 output.close()
-    gamelist = open("gamelist", "w", encoding='utf-8')
-    gamelist.close()
