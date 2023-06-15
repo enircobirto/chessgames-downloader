@@ -49,6 +49,6 @@ def export_games(path,n,options,spaces):
 
         gamelist = open("gamelist", "w", encoding='utf-8')
         gamelist.close()
-        gamelist = open("temp.pgn", "w", encoding='utf-8')
-        gamelist.close()
+        temp = open("temp.pgn", "w", encoding='utf-8')
+        temp.close()
         bar()
