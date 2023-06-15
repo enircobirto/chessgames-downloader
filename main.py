@@ -30,14 +30,13 @@ def main(args):
     playerlist=[]
 
     for i in info:
-        print (i)
         playerlist.append(i['player'])
 
     threads = 16 
     get_page_list(info,spaces,threads)
     
     options = {'white_only':args.white_only,'black_only':args.black_only}
-    export_games(args.output,threads,options,playerlist)
+    export_games(args.output,threads,options)
     
     return "\nDone."
 

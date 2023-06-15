@@ -19,9 +19,6 @@ def get_player_list(args):
         print (" [ERROR] Empty player list! Run 'python main.py -h' for instructions.")
         raise EmptyPlayerList
 
-    print(" > Players:")
-    for line in playerlist:
-        print(f' -> {line.strip()}')
     print('\n')
     return playerlist
 
