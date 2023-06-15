@@ -20,8 +20,10 @@ def pgn(info):
         result+=line+'\n'
 
     if options['white_only']:
-        white = re.findall(r'White "(.*?)"',result)[0]
-        
+        try:
+            white = re.findall(r'White "(.*?)"',result)[0]
+        except:
+            return ''
         if similar(player,white) >= 0.7:
             print(f"white: {white}, exporting.")
             return result+'\n'
@@ -29,8 +31,10 @@ def pgn(info):
             print(f"white: {white}, NOT exporting.")
             return ''
     if options['black_only']:
-        black = re.findall(r'Black "(.*?)"',result)[0]
-        
+        try:
+            black = re.findall(r'Black "(.*?)"',result)[0]
+        except:
+            return ''
         if similar(player,black) >= 0.7:
             print(f"black: {black}, exporting.")
             return result+'\n'
