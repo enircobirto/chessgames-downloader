@@ -13,11 +13,7 @@ def pgn(info):
     }
     r = requests.get(url, headers=headers) 
 
-    lines=r.text.split('\n')
-    nonemptylines=[line for line in lines if line.strip()!='']
-    result=""
-    for line in nonemptylines:
-        result+=line+'\n'
+    result=r.text
 
     if options['white_only']:
         try:
@@ -38,7 +34,7 @@ def pgn(info):
         else:
             return ''
 
-    return result+'\n'
+    return r.text+'\n'
 
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
