@@ -36,7 +36,7 @@ def main(args):
     get_page_list(info,spaces,threads)
     
     options = {'white_only':args.white_only,'black_only':args.black_only}
-    export_games(args.output,threads,options)
+    export_games(args.output,threads,options,spaces)
     
     return "\nDone."
 

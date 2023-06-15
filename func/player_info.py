@@ -10,7 +10,6 @@ def player_info(playerlist,spaces,n):
        with Pool(n) as pool:
             for result in pool.imap_unordered(from_player,playerlist):
                 if result['pid']!='ERROR':
-                    print(f"> {result['player']}({result['pid']}): {result['max']} pages")
                     info.append(result)
                     bar()
                 else:

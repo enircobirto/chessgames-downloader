@@ -18,4 +18,8 @@ def get_page_list(info,spaces,n):
     with alive_bar(len(pagelist),title=f' > Extracting pages   {spaces}',bar='filling',spinner='classic') as bar:
         with Pool(n) as pool:
             for result in pool.imap_unordered(from_page,pagelist):
+                gamelist=open("gamelist","a")
+                for r in result:
+                    gamelist.write(r)
+                gamelist.close()
                 bar()
