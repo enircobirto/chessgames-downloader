@@ -1,6 +1,4 @@
-from alive_progress import alive_bar
 import requests
-import json
 import re
 
 def from_player(player):
@@ -13,8 +11,8 @@ def from_player(player):
         pid = get_pid(page.text)
         page=requests.get(f"https://www.chessgames.com/perl/chess.pl?page=1&pid={pid}",headers=headers)
         pageCount = get_page_count(page.text)
-
-        info = dict({"player":player.strip(),"pid":pid,"max":pageCount})
+        playername = get_player_name(page.text,pid)
+        info = dict({"player":playername.strip(),"pid":pid,"max":pageCount})
         return info
 
         #return (f"\n-> {player}: {pageCount} pages")
@@ -26,3 +24,5 @@ def get_pid(page):
     return re.findall(r'Player profile: <B><a href="/perl/chessplayer\?pid=(.*)">',page)[0]
 def get_page_count(page):
     return int(re.findall(r'page 1 of (.*?);',page)[0])
+def get_player_name(page,pid):
+    return re.findall(f'{pid}">(.*?)\n',page)[0]
