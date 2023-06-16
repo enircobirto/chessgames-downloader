@@ -26,3 +26,22 @@ python main.py -pf "playerlist.txt" -p "Henry Bird, Charousek" -o "Romantics.pgn
 ```
 
 > Export only games that those players have played with the black pieces
+
+## Additional info:
+
+### Output file is appendable, which means:
+
+#### Running:
+```
+python main.py -pf "playerlist.txt" -o "Romantics.pgn"
+```
+
+#### And then:
+```
+python main.py -p "Henry Bird, Charousek" -o "Romantics.pgn"
+```
+
+#### Will first write the games of ```Anderssen```, ```Morphy```, and ```Blackburne```,
+#### Then will add the games of ```Bird``` and ```Charousek``` to the same file, keeping the results of the first operation.
+
+### The file 'gamelist' is emptied at the end of every run, but you can add invididual games to it before the program runs, and those games will be downloaded. Just remember to put ```?player="PreferredPlayer"``` at the end of the link :)
