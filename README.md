@@ -49,3 +49,5 @@ python main.py -p "Henry Bird, Charousek" -o "Romantics.pgn"
 
 #### You can add invididual games to it before the program runs, and those games will be downloaded.
 (Just remember to put ```?player="PreferredPlayer"``` at the end of the link, or else the program will crash)
+
+#### **After a crash, you have to manually remove the file ```gamelist```!**
