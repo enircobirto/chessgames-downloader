@@ -2,12 +2,13 @@
 Simple scraper to get games from chessgames.com
 
 ## Example usage:
+> on playerlist.txt:
 ```
 Anderssen
 Morphy
 Blackburne
 ```
-> playerlist.txt
+
 
 ```bash
 python main.py -pf "playerlist.txt" -p "Henry Bird, Charousek" -o "Romantics.pgn" 
