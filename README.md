@@ -9,7 +9,7 @@ Morphy
 Blackburne
 ```
 
-
+## Run:
 ```bash
 python main.py -pf "playerlist.txt" -p "Henry Bird, Charousek" -o "Romantics.pgn" 
 ```
